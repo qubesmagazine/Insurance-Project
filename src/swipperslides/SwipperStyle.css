@@ -1,0 +1,55 @@
+.container1 {
+  border-radius: 5px;
+  border: none;
+}
+
+.bigbox {
+  width: 600px;
+  height: 450px;
+  border-radius: 50px;
+  border: 1px solid rgb(8, 21, 46);;
+  display: grid;
+  place-items: center;
+  background: rgb(8, 21, 46);
+
+}
+
+.content-contain {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-containerSlide {
+  width: 35%;
+  height: 100%;
+}
+
+.text-containerNew {
+  width: 55%;
+}
+
+.selectSlideContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 600px;
+  margin-top: 10px;
+}
+
+.indicators {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+
+.current-indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--pink);
+  cursor: pointer;
+}

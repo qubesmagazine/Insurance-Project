@@ -1,0 +1,70 @@
+.top-new {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 70px 0 70px;
+  border: none;
+}
+
+.first-roll span {
+  font-size: 130px;
+}
+
+.second-roll {
+  margin-top: 50px;
+  display: flex;
+  justify-content: none;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.first-roll h3 {
+  margin-top: 50px;
+  font-size: 50px;
+  text-decoration: solid;
+  font-weight: bolder;
+  font-family: 'Changa One', 'cursive';
+  width: 300px;
+}
+
+.first-roll h3:hover{
+  color: var(--pink);
+}
+
+
+
+.third-roll .img-container img{
+  border-radius: 90px;
+  border: none;
+  box-shadow: 0 0 50px -15px white;
+  outline: none;
+  cursor: pointer; 
+  transition: transform 0.2s ease; 
+}
+
+
+
+.third-roll .img-container:hover {
+  transform: scale(1.05); 
+}
+
+.second-roll button {
+  height: 50px;
+  width: 350px;
+  border-radius: 50px;
+  border: 1px solid var(--pink);
+  color: var(--pink);
+  background-color: var(--navyblue);
+  cursor: pointer;
+}
+
+
+.second-roll button:hover {
+  background-color: var(--pink); 
+  color: black;
+}
+
+
+.spannews{
+  color: lightblue;
+  text-decoration: underline;
+}

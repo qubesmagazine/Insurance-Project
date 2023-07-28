@@ -1,0 +1,52 @@
+/* FourthPage.css or relevant CSS file */
+.SlideContainer {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .SlideContainer > div {
+    flex: 1;
+  }
+
+
+  .swipperdiv{
+     align-items: center;
+  }
+  
+ .experts{
+ display: flex;
+ justify-content: center;
+ position: relative; /* Set the parent container as relative */
+
+  }
+
+
+
+  .exp {
+    position: relative; /* Set the parent container as relative */
+    display: inline-block;
+  }
+  
+  .exp div{
+    
+    position: absolute; /* Position the button absolutely inside the container */
+    top: 37%; /* Adjust the vertical position of the button */
+    left: 35%; /* Adjust the horizontal position of the button */
+  }
+
+  .exp h2{
+    font-weight: bolder;
+    font-family: 'Changa One', 'cursive';
+    font-size: 70px;
+    position: absolute; /* Position the button absolutely inside the container */
+    top: 33%; /* Adjust the vertical position of the button */
+    left: 41%; /* Adjust the horizontal position of the button */
+
+}
+
+
+
+.exp h2:hover {
+  color: var(--pink);
+}

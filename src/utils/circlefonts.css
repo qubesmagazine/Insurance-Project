@@ -1,0 +1,13 @@
+/* Apply the styles to the "DiCssTricks" class */
+.DiCss {
+    display: inline-block;
+    width: 30px; /* Set the width and height to make the icon a perfect circle */
+    height: 30px;
+    background-color: white; /* Set the background color to white */
+    border-radius: 50%; /* Make the icon a perfect circle */
+    text-align: center;
+    line-height: 50px; /* Vertically center the content */
+    font-size: 24px; /* Set the font size to adjust the icon size */
+    color: black; /* Set the color for the icon (black in this case) */
+    /* Add any other styles as needed */
+  }

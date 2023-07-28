@@ -1,0 +1,123 @@
+/* LastPage.css */
+.classcontainer {
+  margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 40px;
+    width: 50%;
+  }
+  
+  .heading h1{
+  
+    font-size: 50px;
+    border-radius: 25px;
+    color: white;
+   padding-right: 170px;
+  }
+
+
+  .heading h1:hover {
+    color: var(--pink);
+  }
+
+  .buttons-row {
+    display: flex;
+    justify-content: start;
+    margin: 20px 0;
+    text-align: center;
+    font-size: small;
+  }
+  
+  .buttons-row button {
+    background-color: #1E2A3A;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 90px;
+    height: 35px;
+  }
+  
+  .buttons-row button:hover {
+    background-color: white;
+    color: #1E2A3A; 
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: none;
+    gap: 80px;
+    margin: 20px 0;
+  }
+  
+  .input-wrapper {
+    color: white;
+  }
+  
+  .input-wrapper p {
+    margin-bottom: 5px;
+  }
+  
+  .input-wrapper input {
+    background-color: #1E2A3A;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    width: 205px;
+
+  }
+  
+  .calculator-button {
+    background-color: var(--pink);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 500px;
+  }
+
+
+  .calculator-button:hover {
+    background-color: var(--navyblue); 
+    color: white;
+    border: solid 1px var(--pink);
+  }
+  
+
+.containertwo {
+
+    color: white;
+    padding: 20px;
+   display: flex;
+   justify-content: flex-start;
+   width: 50%;
+   padding-left: 140px;
+  }
+
+  .containertwo h1 {
+    margin-left: 0; 
+    font-size: 25px;
+  }
+
+  .containertwo p {
+    font-size: 16px;
+  }
+  
+  .containertwo h1:hover {
+    color: var(--pink);
+  }
+  
